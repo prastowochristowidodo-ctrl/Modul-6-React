@@ -1,0 +1,57 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+  color: #222;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.daftar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+input {
+  padding: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+li {
+  margin: 12px 0;
+}
+
+li span {
+  cursor: pointer;
+}
+
+.selesai {
+  text-decoration: line-through;
+  color: gray;
+}
